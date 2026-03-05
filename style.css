@@ -15,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     color: #fafafa;
-    
 }
 
 h1 {
@@ -27,8 +26,6 @@ h3 {
     font-family: "Antic Didone", serif;
 }
 
-
-/* Подшаг 2 Шага 2 */
 #btn-container {
     display: flex;
     justify-content: center;
@@ -46,32 +43,24 @@ h3 {
 
 
 .btn {
-    /* margin-top: 200px; */
-   background-color: transparent;
-   color: #fafafa;
+    background-color: transparent;
+    color: #fafafa;
     border: none;
-  
-
 }
-/* 
-4 - Работаем с кнопками */
+
 a {
     text-decoration: none;
     font-family: "Antic Didone", serif;
     font-size: 25px;
     color: #fafafa;
     font-weight: 700;
-  
 }
 
-
-.btn:hover, a:hover {
+.btn:hover,
+a:hover {
     color: #8BC8DA;
-} 
+}
 
-/* 7 - Работаем с видео (стиль) */
-/* У нас сейчас проблема что у нас видео находится под заголовком и под кнопками
-Но мы хотим чтобы кнопки находились на самом видео */
 #myVideo {
     position: fixed;
     top: 0px;
@@ -79,8 +68,8 @@ a {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    object-fit: cover; /* This will ensure the video covers the entire area without stretching */
-    object-position: center; /* This centers the video content */
+    object-fit: cover;
+    object-position: center;
 }
 
 #edu {
@@ -90,8 +79,5 @@ a {
     color: #8d8e8e;
     font-family: "Antic Didone", serif;
     text-align: center;
-    padding: 10px 0; 
+    padding: 10px 0;
 }
-
-
-

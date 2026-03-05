@@ -1,12 +1,12 @@
 // Скопировали код с wave.js
 const timer = 7;
 
-let amountTime = timer*60; 
+let amountTime = timer * 60;
 
 function calculateTime() {
     const countDown = document.querySelector("#countdown");
-    let minutes = Math.floor(amountTime/60)
-    let seconds = amountTime%60;
+    let minutes = Math.floor(amountTime / 60)
+    let seconds = amountTime % 60;
 
     if (seconds < 10) {
         seconds = "0" + seconds;
@@ -16,11 +16,11 @@ function calculateTime() {
     amountTime--;
 
     if (amountTime < 0) {
-       
+
         stopTimer();
         amountTime = 0;
         function stopTimer() {
-           clearInterval(timerId)
+            clearInterval(timerId)
         }
     }
 
